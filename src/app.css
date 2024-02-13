@@ -34,3 +34,12 @@ span {
   font-family: inherit;
   font-weight: inherit;
 }
+
+/* active tab styling */
+.active {
+  font-weight: bold;
+  color: #9E5A1B;
+  /* border: .2rem solid #004643; */
+  /* padding: .2rem; */
+  background-color: transparent;
+}
