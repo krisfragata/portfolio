@@ -11,7 +11,8 @@
 		<!-- //create a button that only displays on smaller size screen for nav -->
 		<button class="nav md:hidden grid place-items-center nav-dot"> </button>
 		<nav class="hidden md:flex items-center gap-4 lg:gap-6">
-			<a href="#index" class="duration-200 hover:text-hoverText cursor-pointer">FULL WORKS LIST.</a>
+			<a href="#highlights" class="duration-200 hover:text-hoverText cursor-pointer">HIGHLIGHTS.</a>
+			<a href="#works" class="duration-200 hover:text-hoverText cursor-pointer">FULL WORKS LIST.</a>
 			<a href="#about" class="duration-200 hover:text-hoverText cursor-pointer">MORE ABOUT.</a>
 			<button class="specialBtn">
 				<a

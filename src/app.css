@@ -25,13 +25,24 @@ section{
 }
 
 .nav-dot {
-  width: 40px; /* Adjust width and height as needed */
-  height: 40px;
+  width: 20px; /* Adjust width and height as needed */
+  height: 20px;
   background-image: url('./assets/nav.svg');
   background-size: contain; /* Ensure SVG fits inside button */
   background-repeat: no-repeat; /* Prevent SVG from repeating */
   background-position: center; /* Center SVG within button */
   border: none; /* Remove button border */
+  cursor: pointer; 
+}
+
+.arrow-down{
+  width: 25px; /* Adjust width and height as needed */
+  height: 25px;
+  background-image: url('./assets/arrow-down.svg'); 
+  background-size: contain; /* Ensure SVG fits inside button */
+  background-repeat: no-repeat; /* Prevent SVG from repeating */
+  background-position: center; /* Center SVG within button */
+  border: none;  /*Remove button border */
   cursor: pointer; 
 }
 
