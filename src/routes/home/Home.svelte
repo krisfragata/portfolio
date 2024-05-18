@@ -23,17 +23,17 @@
 </script>
 
 <SectionWrapper id="mini-about">
-	<div class="flex flex-col gap-4 flex-1 items-center justify-start">
+	<div class="max-h-[500px] flex flex-col gap-4 flex-1 overflow-hidden items-center justify-center">
 		<p
-			class="text-lg text-paragraphText font-bold sm:text-xl md:text-2xl text-left max-w-[600px] mx-auto w-full py-10"
+			class="text-lg text-paragraphText font-semibold sm:text-xl md:text-2xl text-left max-w-[500px] mx-auto w-full py-10"
 		>
-			I'M AN <span class="text-highlight">ENGINEER</span> &
-			<span class="text-highlight">ARTIST</span> BASED IN WESTERN, MASSACHUSETTS AND MANILA, PHILIPPINES
+			I'm a <span class="text-highlight">software engineer</span> and
+			<span class="text-highlight">artist</span> based in Boston, Massachusetts and Manila, Philippines.
 		</p>
-		<Tab activeTab={activeTab} on:tabChange={handleTabChange}/>
-		<WorksWrapper works={activeTab}>
+		<!-- <Tab activeTab={activeTab} on:tabChange={handleTabChange}/> -->
+		<!-- <WorksWrapper works={activeTab}> -->
 			<!-- add logic to which tab info is loaded -->
-			{#if activeTab === 'code'}
+			<!-- {#if activeTab === 'code'}
 				<Code />
 			{/if}
 			{#if activeTab === 'all'}
@@ -46,8 +46,8 @@
 				<Art />
 			{/if}
 			{#if activeTab === 'writing'}
-				<Writing />
-			{/if}
-		</WorksWrapper>
+				<Writing /> -->
+			<!-- {/if} -->
+		<!-- </WorksWrapper> -->
 	</div>
 </SectionWrapper>
