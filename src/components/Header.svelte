@@ -5,7 +5,7 @@
 
 <!-- //create header/nav  -->
 <header>
-  <div class=" max-w[1400px] mx-auto w-full  flex items-center justify-between p-4 py-6">
+  <div class=" max-w-[1000px] mx-auto w-full  flex items-center justify-between p-10 py-6">
     <a href="/">
       <h1 class="text-headerText">KRIS FRAGATA</h1>
     </a>

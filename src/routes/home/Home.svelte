@@ -22,7 +22,7 @@
 
 </script>
 
-<SectionWrapper id="mini-about">
+<SectionWrapper id="home">
 	<div class="max-h-[500px] flex flex-col gap-4 flex-1 overflow-hidden items-center justify-center">
 		<p
 			class="text-lg text-paragraphText font-semibold sm:text-xl md:text-2xl text-left max-w-[500px] mx-auto w-full py-10"
@@ -30,24 +30,5 @@
 			I'm a <span class="text-highlight">software engineer</span> and
 			<span class="text-highlight">artist</span> based in Boston, Massachusetts and Manila, Philippines.
 		</p>
-		<!-- <Tab activeTab={activeTab} on:tabChange={handleTabChange}/> -->
-		<!-- <WorksWrapper works={activeTab}> -->
-			<!-- add logic to which tab info is loaded -->
-			<!-- {#if activeTab === 'code'}
-				<Code />
-			{/if}
-			{#if activeTab === 'all'}
-				<All/>
-			{/if}
-			{#if activeTab === 'music'}
-				<Music />
-			{/if}
-			{#if activeTab === 'art'}
-				<Art />
-			{/if}
-			{#if activeTab === 'writing'}
-				<Writing /> -->
-			<!-- {/if} -->
-		<!-- </WorksWrapper> -->
 	</div>
 </SectionWrapper>
