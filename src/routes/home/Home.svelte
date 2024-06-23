@@ -1,13 +1,6 @@
 <script>
 	import SectionWrapper from '../../components/SectionWrapper.svelte';
-	import All from './All.svelte';
-	import Art from './Art.svelte';
-	import Code from './Code.svelte';
-	import Music from './Music.svelte';
-	import Tab from './Tab.svelte';
-	import WorksWrapper from './WorksWrapper.svelte';
 	import { onMount } from 'svelte';
-	import Writing from './Writing.svelte';
 
 	//page first loads to 'code'
 	let activeTab = 'code';
