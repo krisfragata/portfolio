@@ -20,14 +20,15 @@
 		<p
 			class="text-lg text-paragraphText font-semibold sm:text-xl md:text-2xl text-left max-w-[600px] mx-auto w-full"
 		>
-			I'm a <span class="text-highlight">software engineer</span> and
-			<span class="text-highlight">artist</span> based in Boston, Massachusetts and Manila, Philippines.
+			I'm a <span class="text-highlight hover:underline hover:text-hoverText cursor-pointer">software engineer</span> and
+			<span class="text-highlight hover:underline hover:text-hoverText cursor-pointer">artist</span> based in Boston, Massachusetts and Manila, Philippines.
 		</p>
-
 		<p
-			class="text-lg text-paragraphText sm:text-2lg md:text-3lg text-left max-w-[600px] w-full"
+			class="text-lg text-paragraphText sm:text-2lg md:text-3lg text-left max-w-[600px] w-full cursor-pointer hover:underline"
 		> 
-		Full Works List
+			<a href="#projects">
+			Full Works List
+			</a>
 		</p>
-	</div>
+		</div>
 </SectionWrapper>
